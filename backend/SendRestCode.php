@@ -28,8 +28,8 @@ try {
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Port = 587;                                    // TCP port to connect to
-    $mail->Username = 'qandilafa2@gmail.com';
-    $mail->Password = 'wadielnatrontv0181510877';                       // STP password
+    $mail->Username = '';
+    $mail->Password = '';                       // STP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 
     //Recipients
